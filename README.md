@@ -8,7 +8,7 @@ A single-player Breakout game written entirely in MSP430 assembly for the MSP430
 
 ## Overview
 
-The player controls a horizontal paddle near the bottom of the screen with the joystick. A ball bounces around the display, reflects off the walls and paddle, and destroys bricks placed near the top of the screen. The game includes randomized level layouts, a 3-life system, a start screen, and dedicated start/reset controls. :contentReference[oaicite:1]{index=1}
+The player controls a horizontal paddle near the bottom of the screen with the joystick. A ball bounces around the display, reflects off the walls and paddle, and destroys bricks placed near the top of the screen. The game includes randomized level layouts, a 3-life system, a start screen, and dedicated start/reset controls. 
 
 ## Features
 
@@ -20,14 +20,14 @@ The player controls a horizontal paddle near the bottom of the screen with the j
 - Randomized brick layouts that increase in difficulty
 - 3-life system with on-screen life display
 - Start screen with pause-style symbol
-- Dedicated start and reset buttons :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
+- Dedicated start and reset buttons 
 
 ## Hardware
 
 - MSP430FR6989 LaunchPad
 - Educational BoosterPack MKII TFT display
 - Onboard joystick
-- Two BoosterPack buttons for start and reset :contentReference[oaicite:4]{index=4}
+- Two BoosterPack buttons for start and reset 
 
 ## Hardware Connections
 
@@ -40,13 +40,13 @@ The player controls a horizontal paddle near the bottom of the screen with the j
 - Joy H -> P9.2 (`A10`)
 - Joy V -> P8.7 (`A4`)
 - Start Button -> P3.0
-- Reset Button -> P3.1 :contentReference[oaicite:5]{index=5} :contentReference[oaicite:6]{index=6}
+- Reset Button -> P3.1 
 
 ## Controls
 
 - **Joystick**: move paddle left and right
 - **B1 / Start button**: start the game from the start screen
-- **B2 / Reset button**: return to the start screen :contentReference[oaicite:7]{index=7}
+- **B2 / Reset button**: return to the start screen
 
 ## Game Logic
 
